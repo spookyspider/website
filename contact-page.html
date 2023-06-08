@@ -2,17 +2,45 @@
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact-page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <header class="header">
+        <div class="header-text">
+        <div class="home-header">Home</div>
+        <a href="contact-page.html">
+        <div class="contact-header">Contact Me</div>
+        </a>
+       <form action="https://drive.google.com/file/d/1pKRY5VN682tP9ghL3Lyrn1aab-uUxqHU/view?usp=sharing" method="get" target="_blank">
+        <button type="submit" class="download-header">Download CV</button>
+    </form>
+    </header>
+
 <main>
 
     <form action="https://formsubmit.co/wElliott743@gmail.com" method="POST">
-    <input type="email" name="email" placeholder="Your Email Address" required>
-    <input type="text" name="name" placeholder="Full Name">
-    <input type="text" name="Message" placeholder="Message" required>
-    <button type="submit">Send</button>
+    <div class="contact-form">
+        <div class="contact-form-title">
+            Contact Form
+        </div>
+        <div class="div-1">
+        <input type="email" class="email" name="email" placeholder="Your Email Address" required>
+    </div> <div class="div-2">
+        <input type="text" class="full-name" name="name" placeholder="Full Name">
+    </div><div class="div-3">
+        <textarea rows="6" cols="70" name="text" 
+       class="message" name="message" placeholder="Message"></textarea>
+      <br/>
+      <input type="hidden" value="submit"/>
+    </div><div class="div-4">
+        <button type="submit" class="send-button">Send</button>
+    </div>
+</div> <!--CONTACT FORM DIV-->
+
     </form>
 
 
