@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active, a:focus {
+    color: black;
+  }
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 25px; 
+    padding: 0;
+    justify-content: center;
+    max-width: 1145px;
+}
+
+.flex-1,
+.flex-2,
+.flex-3,
+.flex-4,
+.flex-5,
+.flex-6 {
+    align-items: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    box-shadow: 1px 1px 10px rgb(82, 82, 82)
+   
+}
+
+
+.flex-1,
+.flex-2,
+.flex-3, 
+.flex-4,
+.flex-5,
+.flex-6 {
+    background-color: rgb(112, 183, 126);   
+    border-width: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding-bottom: 5px;
+    border-color: rgb(0, 107, 166);
+
+}
+
+.item-text {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+  
+
+.flex-1-photo,
+.flex-2-photo,
+.flex-3-photo,
+.flex-4-photo,
+.flex-5-photo,
+.flex-6-photo {
+    max-height: 200px;
+    min-width: 330px;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.website-code {
+    position: relative;
+    display: inline-block;
+    left: 450px;
+}
+
+body {
+    background-color:rgb(205, 230, 209); 
+    padding-top: 60px;
+    font-family: Indie Flower;
+    
+    
+}
+
+@media only screen and (min-width: 1440px) {
+    .main-flex {
+        padding-left: 190px;
+    }
+  }
+
+  @media only screen and (min-width: 1600px) {
+    .main-flex {
+        padding-left: 400px;
+    }
+  }
+
